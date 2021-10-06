@@ -1,26 +1,35 @@
 # README
 
+# To Get Started With This Code
+
+1.  Clone repo from GitHub
+2.  `bundle install`
+3.  `yarn install`
+4.  `rake db:migrate` --> This app has a Post model, Posts controller, and a root route.
+
+# Creating from the following
+
 https://www.honeybadger.io/blog/react-rails/
 
-To avoid bugs, change gemfile to:
-gem 'sqlite3', '~> 1.3.10'
+1. To avoid bugs, change gemfile to:
+   `gem 'sqlite3', '~> 1.3.10'`
 
-Add:
-gem 'webpacker', '~> 4.3.x'
+2. Add:
+   `gem 'webpacker', '~> 4.3.x'`
 
-Run:
+3. Run:
 
-bundle install
-bundle exec rake webpacker:install
-bundle exec rake webpacker:install:react
+`bundle install`
+`bundle exec rake webpacker:install`
+`bundle exec rake webpacker:install:react`
 
 At this point, package.json and node_modules should be created.
 
-For React Router:
+4. For React Router:
 
-yarn add react-router-dom
+`yarn add react-router-dom`
 
-Current package.json should be:
+Current `package.json` should be:
 
 {
 "dependencies": {
